@@ -1,0 +1,14 @@
+.editor {
+  accent-color: hsl(var(--brand-600));
+}
+
+.editor > div {
+  border: 1px solid hsl(var(--border));
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: hsl(var(--background) / 85%);
+}
+
+.editor > div:focus-within {
+  border-color: hsl(var(--foreground / 50%));
+}
